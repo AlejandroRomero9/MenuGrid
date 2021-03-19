@@ -1,0 +1,72 @@
+nav{
+    width: 1000px;
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    
+}
+
+button{
+    
+    position: relative;
+    left: 105%;
+    
+    font-weight: bold;
+    background-color: white;
+    border: none;
+}
+
+.titulo{
+    color: burlywood;
+    margin-left: 5%;
+}
+html{
+    background-color: gray;
+    background-image: url(https://media.revistagq.com/photos/5f08621564f52a842c7f9a83/master/pass/hamburguesa%20the%20fitzgerald.jpg);
+    background-size: 90%;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    width: auto;
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 35%;
+
+}
+.articulo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+    
+}
+.articulo img{
+    width: 200px;
+    height: 200px;
+}
+.impar .miniatura{
+    order: 1;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+.tituloarticulo{
+    font-size: 30px;
+    text-align: center;
+}
+.descripcionarticulo{
+    font-size: 20px;
+    text-align: center;
+}
